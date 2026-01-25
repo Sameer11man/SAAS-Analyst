@@ -68,6 +68,9 @@ MRR trend over time, Funnel conversion visualization, Churn overview, Segment-le
 ## Assumptions
 
 One active subscription per customer at a time
+
 activated stage is inferred from subscription start_date
+
 Churn is defined by non-null subscription end_date
+
 Missing signup dates are excluded from time-based analysis
