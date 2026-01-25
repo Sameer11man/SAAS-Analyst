@@ -3,37 +3,37 @@
 
 ## Dataset
 
-customers.csv – customer profile and signup information
-subscriptions.csv – subscription lifecycle and revenue
-events.csv – product usage and funnel events
+customers.csv – customer profile and signup information.
+subscriptions.csv – subscription lifecycle and revenue.
+events.csv – product usage and funnel events.
 
 ## Tools & Technologies
 
-MySQL – data storage and analytical queries
-Python (pandas, numpy, mysql-connector) – data validation and sanity checks
-Power BI – dashboard and visualization
+MySQL – data storage and analytical queries.
+Python (pandas, numpy, mysql-connector) – data validation and sanity checks.
+Power BI – dashboard and visualization.
 
 ## Workflow
 
-Load CSV files into MySQL tables
-Perform data validation using data_validation.ipynb
-Clean data (duplicates, missing values, inconsistent records)
-Calculate key SaaS metrics using SQL
-Perform funnel analysis
-Build Power BI dashboard
-Derive insights and recommendations
+Load CSV files into MySQL tables.
+Perform data validation using data_validation.ipynb .
+Clean data (duplicates, missing values, inconsistent records) .
+Calculate key SaaS metrics using SQL.
+Perform funnel analysis.
+Build Power BI dashboard.
+Derive insights and recommendations.
 
  ## Key Metrics
 
-Monthly Recurring Revenue (MRR)
-Annual Recurring Revenue (ARR)
-Customer (Logo) Churn Rate
-Revenue Churn Rate
-Average Revenue per Customer (ARPC)
+Monthly Recurring Revenue (MRR).
+Annual Recurring Revenue (ARR).
+Customer (Logo) Churn Rate.
+Revenue Churn Rate.
+Average Revenue per Customer (ARPC).
 
 ## Funnel
 
-Signup → Trial → Activated → Churned
+Signup → Trial → Activated → Churned.
 Funnel stages are derived from the events and subscriptions tables and used to calculate conversion rates and drop-offs.
 
 ## Data Validation
